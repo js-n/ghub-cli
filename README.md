@@ -31,5 +31,11 @@ Opening in browser...
 # thanks
 inspired by [ghub.io](https://www.npmjs.com/package/ghub), thank you [@juliangruber](https://github.com/juliangruber)!
 
+# what about npm.im?
+there's an npm cli package called [`npm-url`](https://www.npmjs.com/package/npm-url) so you can
+```sh
+> npx npm-url express
+```
+
 # license
 ISC
