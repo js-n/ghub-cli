@@ -1,6 +1,6 @@
 {
   "name": "ghub-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Redirect to a npm package's GitHub page from your terminal, if available",
   "main": "index.js",
   "bin": "index.js",
