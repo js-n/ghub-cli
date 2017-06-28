@@ -1,0 +1,30 @@
+{
+  "name": "ghub-cli",
+  "version": "1.0.0",
+  "description": "Redirect to a npm package's GitHub page from your terminal, if available",
+  "main": "index.js",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-n/ghub-cli.git"
+  },
+  "keywords": [
+    "ghub.io",
+    "ghub",
+    "github",
+    "npx"
+  ],
+  "author": "jsdnxx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js-n/ghub-cli/issues"
+  },
+  "homepage": "https://github.com/js-n/ghub-cli#readme",
+  "dependencies": {
+    "github-url-to-object": "^4.0.2",
+    "opener": "^1.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.5"
+  }
+}
