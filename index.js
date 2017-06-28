@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+if (process.mainModule === module) setImmediate(() => main(process.argv).catch(e => console.log(e.stack) && process.exit(1)))
 // @ts-check
 const { exec } = require('child_process')
 const githubUrlToObject = require("github-url-to-object")
@@ -52,8 +53,3 @@ opens a browser to the GitHub repository for <moduleName>
   }
   opener(url)
 }
-
-if (process.mainModule.filename == __filename) main(process.argv).catch(e => {
-  console.log(e.stack)
-  process.exit(1)
-})
